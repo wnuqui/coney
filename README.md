@@ -4,7 +4,12 @@ This gem is a CLI application that can be used to convert currency from base to 
 
 ## Installation
 
-    $ gem install cm
+There is already a gem of same name here: https://github.com/adrianwebb/cm. To install, do the following:
+
+```shell
+git clone git://github.com/wnuqui/cm.git && cd cm
+bundle && rake spec && rake clean clobber install:local
+```
 
 ## Usage
 
@@ -12,7 +17,7 @@ This gem is a CLI application that can be used to convert currency from base to 
 
 ## In action
 
-![cm in action](cm.gif)
+![cm in action](cm.png)
 
 ## Development
 
