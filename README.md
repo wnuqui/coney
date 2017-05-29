@@ -1,4 +1,4 @@
-# cm
+# cm [![Build Status](https://semaphoreci.com/api/v1/wnuqui/cm/branches/master/shields_badge.svg)](https://semaphoreci.com/wnuqui/cm)
 
 This gem is a CLI application that can be used to convert currency from base to target via Google.
 
