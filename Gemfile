@@ -8,5 +8,6 @@ gem 'mechanize'
 gem 'pry'
 gem 'vcr'
 gem 'webmock'
-gem 'simplecov', require: false, group: :test
-gem 'guard-rspec', require: false
+gem 'simplecov',    require: false, group: :test
+gem 'guard-rspec',  require: false
+gem 'rubocop',      require: false
