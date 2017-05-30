@@ -4,7 +4,7 @@ describe Cm::CLI do
   describe '--version' do
     it 'shows version' do
       output = capture(:stdout) { cli.__print_version }
-      expect(output).to eq("cm version 0.1.0\n")
+      expect(output).to match(/cm version [\d\.\d\.\d]/)
     end
   end
 
