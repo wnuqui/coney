@@ -4,6 +4,7 @@ SimpleCov.start
 require 'cm'
 require 'vcr'
 
+# Thanks to https://github.com/erikhuda/thor/blob/master/spec/helper.rb!
 RSpec.configure do |config|
   config.before do
     ARGV.replace []
