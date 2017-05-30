@@ -1,0 +1,11 @@
+AllCops:
+  Excludes:
+    - spec/**/*
+    - console
+    - Rakefile
+    - Gemfile
+    - cm.gemspec
+    - Guardfile
+    - bin/cm
+Metrics/LineLength:
+  Enabled: false
