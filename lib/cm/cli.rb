@@ -7,9 +7,9 @@ require 'mechanize'
 module Cm
   # :nodoc:
   class CLI < Thor
-    URL = 'https://www.google.com/search?q=BASE+AMOUNT+to+TARGET'
+    URL = 'https://www.google.com/search?q=BASE+AMOUNT+to+TARGET'.freeze
 
-    COMMAND = 'convert --base CURRENCY [--base-amount AMOUNT] --target CURRENCY'
+    COMMAND = 'convert --base CURRENCY [--base-amount AMOUNT] --target CURRENCY'.freeze
 
     desc COMMAND, 'Convert base currency to target currency'
 
