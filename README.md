@@ -1,4 +1,4 @@
-# cm [![Build Status](https://semaphoreci.com/api/v1/wnuqui/cm/branches/master/badge.svg)](https://semaphoreci.com/wnuqui/cm) [![Ebert](https://ebertapp.io/github/wnuqui/cm.svg)](https://ebertapp.io/github/wnuqui/cm)
+# cm [![Build Status](https://semaphoreci.com/api/v1/wnuqui/cm/branches/master/badge.svg)](https://semaphoreci.com/wnuqui/cm) [![Ebert](https://ebertapp.io/github/wnuqui/cm.svg)](https://ebertapp.io/github/wnuqui/cm) <a href="https://codeclimate.com/github/wnuqui/cm"><img src="https://codeclimate.com/github/wnuqui/cm/badges/gpa.svg" /></a> <a href="https://codeclimate.com/github/wnuqui/cm"><img src="https://codeclimate.com/github/wnuqui/cm/badges/issue_count.svg" /></a> <a href="https://codeclimate.com/github/wnuqui/cm/coverage"><img src="https://codeclimate.com/github/wnuqui/cm/badges/coverage.svg" /></a>
 
 This gem is a CLI application that can be used to convert currency from base to target via Google.
 
