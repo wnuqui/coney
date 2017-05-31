@@ -5,9 +5,13 @@ gemspec
 
 gem 'thor'
 gem 'mechanize'
-gem 'pry'
-gem 'vcr'
-gem 'webmock'
-gem 'simplecov',    require: false, group: :test
-gem 'guard-rspec',  require: false
-gem 'rubocop',      require: false
+
+group :test, :development do
+  gem 'pry'
+  gem 'vcr'
+  gem 'webmock'
+  gem 'simplecov'
+  gem 'codeclimate-test-reporter', '~> 1.0.0'
+  gem 'guard-rspec',  require: false
+  gem 'rubocop',      require: false
+end
