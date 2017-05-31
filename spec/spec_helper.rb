@@ -1,7 +1,7 @@
 require 'simplecov'
 SimpleCov.start
 
-require 'cm'
+require 'cm/cli'
 require 'vcr'
 
 # Thanks to https://github.com/erikhuda/thor/blob/master/spec/helper.rb!
