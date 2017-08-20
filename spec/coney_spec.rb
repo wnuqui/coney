@@ -1,10 +1,10 @@
-describe Cm::CLI do
-  let(:cli) { Cm::CLI.new }
+describe Coney::CLI do
+  let(:cli) { Coney::CLI.new }
 
   describe '--version' do
     it 'shows version' do
       output = capture(:stdout) { cli.__print_version }
-      expect(output).to match(/cm version [\d\.\d\.\d]/)
+      expect(output).to match(/coney version [\d\.\d\.\d]/)
     end
   end
 
@@ -13,7 +13,7 @@ describe Cm::CLI do
       VCR.use_cassette('convert') do
         allow(cli).to receive(:options).and_return({ base: 'USD', target: 'EURO' })
         output = capture(:stdout) { cli.convert }
-        expect(output).to eq("1 US dollar = 0.8927 euros\n")
+        expect(output).to eq("1 US dollar = 0.8503 euros\n")
       end
     end
   end

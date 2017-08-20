@@ -4,8 +4,8 @@ AllCops:
     - console
     - Rakefile
     - Gemfile
-    - cm.gemspec
+    - coney.gemspec
     - Guardfile
-    - bin/cm
+    - bin/coney
 Metrics/LineLength:
   Enabled: false

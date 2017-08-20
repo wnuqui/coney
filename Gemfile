@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in cm.gemspec
+# Specify your gem's dependencies in coney.gemspec
 gemspec
 
 gem 'thor'

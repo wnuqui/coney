@@ -1,7 +1,7 @@
 require 'simplecov'
 SimpleCov.start
 
-require 'cm/cli'
+require 'coney/cli'
 require 'vcr'
 
 # Thanks to https://github.com/erikhuda/thor/blob/master/spec/helper.rb!

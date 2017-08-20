@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require 'cm/version'
+require 'coney/version'
 require 'thor'
 require 'mechanize'
 
-module Cm
+module Coney
   # :nodoc:
   class CLI < Thor
     URL = 'https://www.google.com/search?q=BASE+AMOUNT+to+TARGET'.freeze
@@ -25,7 +25,7 @@ module Cm
     desc '--version, -v', 'Print the version'
 
     def __print_version
-      puts 'cm version ' + Cm::VERSION.to_s
+      puts 'coney version ' + Coney::VERSION.to_s
     end
 
     NO_COMMANDS_PROC = proc do

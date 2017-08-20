@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'bundler/setup'
-require 'cm/cli'
+require 'coney/cli'
 
-Cm::CLI.start ARGV
+Coney::CLI.start ARGV
